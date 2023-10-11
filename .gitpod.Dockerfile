@@ -1,5 +1,6 @@
 FROM gitpod/workspace-full:latest
 
+RUN sudo apt-get update
 RUN sudo apt-get install -y graphviz
 
 # Move where Pyenv is stored
